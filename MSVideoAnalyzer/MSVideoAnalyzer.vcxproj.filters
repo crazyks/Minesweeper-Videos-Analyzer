@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\app">
+      <UniqueIdentifier>{a840f64e-6f88-4bd7-8c68-6df7893efa35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\res">
+      <UniqueIdentifier>{acc482a5-e00d-4b3a-9593-66396952d5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\app">
+      <UniqueIdentifier>{25cb2632-84c3-40e7-9b5f-ff23cf36ffc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\data">
+      <UniqueIdentifier>{ddf0eca3-3a40-44e8-a6a5-d91135452125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\data">
+      <UniqueIdentifier>{773fba57-87f4-48fc-8753-2f33ade9c87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{779a3158-6986-4e99-9922-71024350ce83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{530e7a47-7e17-4f77-a886-c95dab7564f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MSVideoAnalyzer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MSVideoAnalyzerDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MSVideoAnalyzer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvancedVideoInfo.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicVideoInfo.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoInfo.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="MSVideoAnalyzer.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="MSVideoAnalyzerDoc.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="MSVideoAnalyzerView.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\res</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoParser.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoInfoBuilder.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="ICallback.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CSheets.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CompetitionSettings.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Formatter.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigItem.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalGonfig.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="TailGenerator.h">
+      <Filter>头文件\app</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5Calculator.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32Calculator.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvancedVideoInfo.cpp">
+      <Filter>源文件\data</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicVideoInfo.cpp">
+      <Filter>源文件\data</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoInfo.cpp">
+      <Filter>源文件\data</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="MSVideoAnalyzer.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="MSVideoAnalyzerDoc.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="MSVideoAnalyzerView.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoParser.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoInfoBuilder.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="CompetitionSettings.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Formatter.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigItem.cpp">
+      <Filter>源文件\data</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalGonfig.cpp">
+      <Filter>源文件\data</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>源文件\data</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\data</Filter>
+    </ClCompile>
+    <ClCompile Include="TailGenerator.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5Calculator.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32Calculator.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MSVideoAnalyzer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

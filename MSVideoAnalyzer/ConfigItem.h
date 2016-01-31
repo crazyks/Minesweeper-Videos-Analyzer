@@ -1,0 +1,47 @@
+#pragma once
+
+#define EVENT_STYLE_FL         0x00000001
+#define EVENT_STYLE_NF         0x00000002
+#define EVENT_TOTAL_TIME       0x00000004
+#define EVENT_TOTAL_3BVS       0x00000008
+#define EVENT_BEST_TIME        0x00000010
+#define EVENT_BEST_3BVS        0x00000020
+#define EVENT_BEST_COUNT       0x00000040
+#define EVENT_TOTAL_TIME_BEG   0x00000080
+#define EVENT_TOTAL_TIME_INT   0x00000100
+#define EVENT_TOTAL_TIME_EXP   0x00000200
+#define EVENT_TOTAL_TIME_ALL   0x00000400
+#define EVENT_TOTAL_3BVS_BEG   0x00000800
+#define EVENT_TOTAL_3BVS_INT   0x00001000
+#define EVENT_TOTAL_3BVS_EXP   0x00002000
+#define EVENT_TOTAL_3BVS_ALL   0x00004000
+#define EVENT_BEST_TIME_BEG    0x00008000
+#define EVENT_BEST_TIME_INT    0x00010000
+#define EVENT_BEST_TIME_EXP    0x00020000
+#define EVENT_BEST_TIME_ALL    0x00040000
+#define EVENT_BEST_3BVS_BEG    0x00080000
+#define EVENT_BEST_3BVS_INT    0x00100000
+#define EVENT_BEST_3BVS_EXP    0x00200000
+#define EVENT_BEST_3BVS_ALL    0x00400000
+#define EVENT_BEST_COUNT_BEG   0x00800000
+#define EVENT_BEST_COUNT_INT   0x01000000
+#define EVENT_BEST_COUNT_EXP   0x02000000
+#define EVENT_BEST_COUNT_ALL   0x04000000
+#define EVENT_RESERVE_1        0x08000000
+#define EVENT_RESERVE_2        0x10000000
+#define EVENT_RESERVE_3        0x20000000
+#define EVENT_RESERVE_4        0x40000000
+#define EVENT_RESERVE_5        0x80000000
+
+class CConfigItem
+{
+public:
+	CString m_szMatchTail;
+	unsigned int m_unBegNum;
+	unsigned int m_unIntNum;
+	unsigned int m_unExpNum;
+	unsigned int m_unEvents;
+
+	CConfigItem(void);
+	~CConfigItem(void);
+};
